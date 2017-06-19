@@ -15,6 +15,7 @@
 		E4ACD90F1EF3782200C78F87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4ACD90D1EF3782200C78F87 /* LaunchScreen.storyboard */; };
 		E4ACD91A1EF3782200C78F87 /* StatusBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4ACD9191EF3782200C78F87 /* StatusBarTests.m */; };
 		E4ACD9251EF3782200C78F87 /* StatusBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4ACD9241EF3782200C78F87 /* StatusBarUITests.m */; };
+		E4ACD9371EF3C36B00C78F87 /* webView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4ACD9361EF3C36B00C78F87 /* webView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		E4ACD9201EF3782200C78F87 /* StatusBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StatusBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4ACD9241EF3782200C78F87 /* StatusBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StatusBarUITests.m; sourceTree = "<group>"; };
 		E4ACD9261EF3782200C78F87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4ACD9351EF3C36B00C78F87 /* webView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = webView.h; sourceTree = "<group>"; };
+		E4ACD9361EF3C36B00C78F87 /* webView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = webView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				E4ACD9031EF3782200C78F87 /* AppDelegate.m */,
 				E4ACD9051EF3782200C78F87 /* ViewController.h */,
 				E4ACD9061EF3782200C78F87 /* ViewController.m */,
+				E4ACD9351EF3C36B00C78F87 /* webView.h */,
+				E4ACD9361EF3C36B00C78F87 /* webView.m */,
 				E4ACD9081EF3782200C78F87 /* Main.storyboard */,
 				E4ACD90B1EF3782200C78F87 /* Assets.xcassets */,
 				E4ACD90D1EF3782200C78F87 /* LaunchScreen.storyboard */,
@@ -277,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4ACD9071EF3782200C78F87 /* ViewController.m in Sources */,
+				E4ACD9371EF3C36B00C78F87 /* webView.m in Sources */,
 				E4ACD9041EF3782200C78F87 /* AppDelegate.m in Sources */,
 				E4ACD9011EF3782200C78F87 /* main.m in Sources */,
 			);

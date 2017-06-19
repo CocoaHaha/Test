@@ -16,10 +16,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    UIView *vierw = [[UIView alloc]init];
+    vierw.frame = CGRectMake(0, 0, self.view.frame.size.width, 64);
+    vierw.backgroundColor = [UIColor redColor];
+    [self.view addSubview:vierw];
+   
+    
 }
 
-
+//- (BOOL)prefersStatusBarHidden{
+//    return YES;
+//}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
