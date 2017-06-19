@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E41EE4DE1EF7D1800041FE3D /* AAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E41EE4DD1EF7D1800041FE3D /* AAViewController.m */; };
 		E4ACD9011EF3782200C78F87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4ACD9001EF3782200C78F87 /* main.m */; };
 		E4ACD9041EF3782200C78F87 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4ACD9031EF3782200C78F87 /* AppDelegate.m */; };
 		E4ACD9071EF3782200C78F87 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4ACD9061EF3782200C78F87 /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E41EE4DC1EF7D1800041FE3D /* AAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAViewController.h; sourceTree = "<group>"; };
+		E41EE4DD1EF7D1800041FE3D /* AAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAViewController.m; sourceTree = "<group>"; };
 		E4ACD8FC1EF3782200C78F87 /* StatusBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StatusBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4ACD9001EF3782200C78F87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E4ACD9021EF3782200C78F87 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				E4ACD9061EF3782200C78F87 /* ViewController.m */,
 				E4ACD9351EF3C36B00C78F87 /* webView.h */,
 				E4ACD9361EF3C36B00C78F87 /* webView.m */,
+				E41EE4DC1EF7D1800041FE3D /* AAViewController.h */,
+				E41EE4DD1EF7D1800041FE3D /* AAViewController.m */,
 				E4ACD9081EF3782200C78F87 /* Main.storyboard */,
 				E4ACD90B1EF3782200C78F87 /* Assets.xcassets */,
 				E4ACD90D1EF3782200C78F87 /* LaunchScreen.storyboard */,
@@ -285,6 +290,7 @@
 				E4ACD9371EF3C36B00C78F87 /* webView.m in Sources */,
 				E4ACD9041EF3782200C78F87 /* AppDelegate.m in Sources */,
 				E4ACD9011EF3782200C78F87 /* main.m in Sources */,
+				E41EE4DE1EF7D1800041FE3D /* AAViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,6 +530,7 @@
 				E4ACD92B1EF3782200C78F87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4ACD92C1EF3782200C78F87 /* Build configuration list for PBXNativeTarget "StatusBarTests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +539,7 @@
 				E4ACD92E1EF3782200C78F87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4ACD92F1EF3782200C78F87 /* Build configuration list for PBXNativeTarget "StatusBarUITests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +548,7 @@
 				E4ACD9311EF3782200C78F87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
